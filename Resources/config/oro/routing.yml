@@ -1,0 +1,14 @@
+oro_item:
+    resource:     "@LabudzinskiTestFrameworkBundle/Controller/ItemController.php"
+    type:         annotation
+    prefix:       /test/item
+
+oro_item_value:
+    resource:     "@LabudzinskiTestFrameworkBundle/Controller/ItemValueController.php"
+    type:         annotation
+    prefix:       /test/item-value
+
+oro_workflow_aware_entity:
+    resource:     "@LabudzinskiTestFrameworkBundle/Controller/WorkflowAwareEntityController.php"
+    type:         annotation
+    prefix:       /test/wfa

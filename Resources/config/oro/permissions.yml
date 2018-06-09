@@ -1,0 +1,8 @@
+oro_permissions:
+    DELETE:
+        exclude_entities:
+            - Labudzinski\TestFrameworkBundle\Entity\TestActivity
+
+    ASSIGN:
+        exclude_entities:
+            - Labudzinski\TestFrameworkBundle\Entity\TestActivity

@@ -1,0 +1,7 @@
+default:
+  suites:
+      default:
+          contexts:
+              - Labudzinski\TestFrameworkBundle\BehatStatisticExtension\Features\Context\StatisticContext
+          paths:
+              - Features

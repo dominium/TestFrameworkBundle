@@ -1,0 +1,6 @@
+services:
+    Labudzinski\TestFrameworkBundle\Command\ContainerTagsDocumentationCommand:
+        public: false
+        class: Labudzinski\TestFrameworkBundle\Command\ContainerTagsDocumentationCommand
+        tags:
+            - { name: console.command }
