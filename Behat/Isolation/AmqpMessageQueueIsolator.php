@@ -2,7 +2,7 @@
 
 namespace Labudzinski\TestFrameworkBundle\Behat\Isolation;
 
-use Oro\Component\AmqpMessageQueue\Transport\Amqp\AmqpQueue;
+use Labudzinski\TestFrameworkBundle\Component\AmqpMessageQueue\Transport\Amqp\AmqpQueue;
 use PhpAmqpLib\Channel\AMQPChannel;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Wire\AMQPTable;

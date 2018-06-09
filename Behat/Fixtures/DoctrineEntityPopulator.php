@@ -7,7 +7,7 @@ use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Mapping\ClassMetadata;
 use Nelmio\Alice\Fixtures\Fixture;
 use Nelmio\Alice\Instances\Populator\Methods\MethodInterface;
-use Oro\Component\PropertyAccess\PropertyAccessor;
+use Labudzinski\TestFrameworkBundle\Component\PropertyAccess\PropertyAccessor;
 use Symfony\Component\Console\Exception\RuntimeException;
 use Symfony\Component\HttpKernel\KernelInterface;
 

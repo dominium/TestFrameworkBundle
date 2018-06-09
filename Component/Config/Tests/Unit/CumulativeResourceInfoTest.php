@@ -1,0 +1,23 @@
+<?php
+
+namespace Labudzinski\TestFrameworkBundle\Component\Config\Tests\Unit;
+
+use Labudzinski\TestFrameworkBundle\Component\Config\CumulativeResourceInfo;
+
+class CumulativeResourceInfoTest extends \PHPUnit_Framework_TestCase
+{
+    public function testConfig()
+    {
+        $bundleClass = 'bundleClass';
+        $name        = 'name';
+        $path        = 'path';
+        $data        = ['test' => 123];
+
+        $resource = new CumulativeResourceInfo($bundleClass, $name, $path, $data);
+
+        $this->assertEquals($bundleClass, $resource->bundleClass);
+        $this->assertEquals($name, $resource->name);
+        $this->assertEquals($path, $resource->path);
+        $this->assertEquals($data, $resource->data);
+    }
+}

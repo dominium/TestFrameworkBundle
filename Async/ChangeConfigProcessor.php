@@ -3,10 +3,10 @@
 namespace Labudzinski\TestFrameworkBundle\Async;
 
 use Oro\Bundle\ConfigBundle\Config\ConfigManager;
-use Oro\Component\MessageQueue\Client\TopicSubscriberInterface;
-use Oro\Component\MessageQueue\Consumption\MessageProcessorInterface;
-use Oro\Component\MessageQueue\Transport\MessageInterface;
-use Oro\Component\MessageQueue\Transport\SessionInterface;
+use Labudzinski\TestFrameworkBundle\Component\MessageQueue\Client\TopicSubscriberInterface;
+use Labudzinski\TestFrameworkBundle\Component\MessageQueue\Consumption\MessageProcessorInterface;
+use Labudzinski\TestFrameworkBundle\Component\MessageQueue\Transport\MessageInterface;
+use Labudzinski\TestFrameworkBundle\Component\MessageQueue\Transport\SessionInterface;
 
 class ChangeConfigProcessor implements MessageProcessorInterface, TopicSubscriberInterface
 {

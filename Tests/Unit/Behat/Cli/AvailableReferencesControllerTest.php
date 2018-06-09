@@ -6,8 +6,8 @@ use Labudzinski\TestFrameworkBundle\Behat\Cli\AvailableReferencesController;
 use Labudzinski\TestFrameworkBundle\Behat\Fixtures\OroAliceLoader;
 use Labudzinski\TestFrameworkBundle\Behat\Isolation\DoctrineIsolator;
 use Labudzinski\TestFrameworkBundle\Tests\Unit\Stub\KernelStub;
-use Oro\Component\Testing\Unit\Command\Stub\InputStub;
-use Oro\Component\Testing\Unit\Command\Stub\OutputStub;
+use Labudzinski\TestFrameworkBundle\Component\Testing\Unit\Command\Stub\InputStub;
+use Labudzinski\TestFrameworkBundle\Component\Testing\Unit\Command\Stub\OutputStub;
 use Symfony\Component\Console\Command\Command;
 
 class AvailableReferencesControllerTest extends \PHPUnit_Framework_TestCase

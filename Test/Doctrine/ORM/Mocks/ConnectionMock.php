@@ -2,10 +2,10 @@
 
 namespace Labudzinski\TestFrameworkBundle\Test\Doctrine\ORM\Mocks;
 
-use Oro\Component\TestUtils\ORM\Mocks\ConnectionMock as BaseConnectionMock;
+use Labudzinski\TestFrameworkBundle\Component\TestUtils\ORM\Mocks\ConnectionMock as BaseConnectionMock;
 
 /**
- * @deprecated since 1.9. use {@see Oro\Component\TestUtils\ORM\Mocks\ConnectionMock}
+ * @deprecated since 1.9. use {@see Labudzinski\TestFrameworkBundle\Component\TestUtils\ORM\Mocks\ConnectionMock}
  */
 class ConnectionMock extends BaseConnectionMock
 {

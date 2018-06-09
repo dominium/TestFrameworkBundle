@@ -2,10 +2,10 @@
 
 namespace Labudzinski\TestFrameworkBundle\Test\Doctrine\ORM;
 
-use Oro\Component\TestUtils\ORM\OrmTestCase as BaseOrmTestCase;
+use Labudzinski\TestFrameworkBundle\Component\TestUtils\ORM\OrmTestCase as BaseOrmTestCase;
 
 /**
- * @deprecated since 1.9. use {@see Oro\Component\TestUtils\ORM\OrmTestCase}
+ * @deprecated since 1.9. use {@see Labudzinski\TestFrameworkBundle\Component\TestUtils\ORM\OrmTestCase}
  */
 class OrmTestCase extends BaseOrmTestCase
 {

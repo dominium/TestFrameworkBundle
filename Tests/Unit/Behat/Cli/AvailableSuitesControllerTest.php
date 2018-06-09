@@ -7,8 +7,8 @@ use Behat\Testwork\Suite\Generator\GenericSuiteGenerator;
 use Behat\Testwork\Suite\SuiteRegistry;
 use Labudzinski\TestFrameworkBundle\Behat\Cli\AvailableSuitesController;
 use Labudzinski\TestFrameworkBundle\Tests\Unit\Behat\Cli\Stub\SpecificationLocatorStub;
-use Oro\Component\Testing\Unit\Command\Stub\InputStub;
-use Oro\Component\Testing\Unit\Command\Stub\OutputStub;
+use Labudzinski\TestFrameworkBundle\Component\Testing\Unit\Command\Stub\InputStub;
+use Labudzinski\TestFrameworkBundle\Component\Testing\Unit\Command\Stub\OutputStub;
 use Symfony\Component\Console\Command\Command;
 
 class AvailableSuitesControllerTest extends \PHPUnit_Framework_TestCase

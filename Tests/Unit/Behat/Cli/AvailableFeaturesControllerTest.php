@@ -8,8 +8,8 @@ use Behat\Testwork\Suite\GenericSuite;
 use Behat\Testwork\Suite\SuiteRegistry;
 use Labudzinski\TestFrameworkBundle\Behat\Cli\AvailableFeaturesController;
 use Labudzinski\TestFrameworkBundle\Tests\Unit\Behat\Specification\Stub\SpecificationLocatorStub;
-use Oro\Component\Testing\Unit\Command\Stub\InputStub;
-use Oro\Component\Testing\Unit\Command\Stub\OutputStub;
+use Labudzinski\TestFrameworkBundle\Component\Testing\Unit\Command\Stub\InputStub;
+use Labudzinski\TestFrameworkBundle\Component\Testing\Unit\Command\Stub\OutputStub;
 use Symfony\Component\Console\Command\Command;
 
 class AvailableFeaturesControllerTest extends \PHPUnit_Framework_TestCase
